@@ -790,3 +790,8 @@ $settings['config_sync_directory'] = 'sites/default/files/config_ajpM83Lw5aL0XZg
 
 /* Enable manual rebuild */
 # $settings['rebuild_access'] = TRUE;
+
+/* Error Reporting */
+error_reporting(E_ALL);
+ini_set('display_errors', TRUE);
+ini_set('display_startup_errors', TRUE);
