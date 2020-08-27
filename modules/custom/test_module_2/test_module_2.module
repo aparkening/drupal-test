@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * @file
+ * Contains test_module_2.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+
+// /**
+//  * Implements hook_entity_view().
+//  */
+// function test_module_2_entity_view(array &$build, \Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display, $view_mode) {
+//   if ($entity->getEntityType()->id() === 'node') {
+//     $build['awesome'] = [
+//       '#markup' => '<h2>This is awesome</h2>',
+//       '#allowed_tags' => ['h2'],
+//     ];
+//   }
+// }
+
+/**
+ * Implements hook_ENTITY_TYPE_view().
+ */
+function test_module_2_node_view(array &$build, \Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display, $view_mode) {
+  $build['awesome'] = [
+    '#markup' => '<h2>This is awesomer</h2>',
+    '#allowed_tags' => ['h2'],
+  ];
+}
