@@ -24,6 +24,7 @@
         "drupal/core-recommended": "^9",
         "drupal/core-vendor-hardening": "^9",
         "drupal/ctools": "^3.4",
+        "drupal/devel": "^4.0",
         "drupal/examples": "^3.0",
         "drupal/pathauto": "^1.8",
         "drupal/vani": "^1.2",
