@@ -24,6 +24,7 @@
         "drupal/core-recommended": "^9",
         "drupal/core-vendor-hardening": "^9",
         "drupal/ctools": "^3.4",
+        "drupal/examples": "^3.0",
         "drupal/pathauto": "^1.8",
         "drupal/vani": "^1.2",
         "drush/drush": "^10.3"
@@ -34,10 +35,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true,
-        "platform": {
-          "php": "7.4.2"
-        }
+        "sort-packages": true
     },
     "extra": {
         "drupal-scaffold": {
