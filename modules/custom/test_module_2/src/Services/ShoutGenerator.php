@@ -6,7 +6,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 // Custom service
 
-class YoGenerator {
+class ShoutGenerator {
 
   public function getShout($length) {
     return 'Y'.str_repeat('O', $length).'!!!!!';

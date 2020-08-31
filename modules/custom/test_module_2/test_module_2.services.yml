@@ -1,0 +1,3 @@
+services: 
+  test_module_2.shout_generator:
+    class: Drupal\test_module_2\Services\ShoutGenerator
