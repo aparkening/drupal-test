@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "49e083e60188c141c9d2bd2e50d11968",
+    "content-hash": "32b6b322248f5616ebc8b3aea3e30cb3",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1025,6 +1025,16 @@
             "homepage": "https://github.com/container-interop/container-interop",
             "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
+        },
+        {
+            "name": "d3/d3",
+            "version": "v3.5.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/d3/d3.git",
+                "reference": "tags/v3.5.17"
+            },
+            "type": "drupal-library"
         },
         {
             "name": "dflydev/dot-access-configuration",
@@ -3823,6 +3833,16 @@
                 "url"
             ],
             "time": "2019-07-01T23:21:34+00:00"
+        },
+        {
+            "name": "highlightjs/highlightjs",
+            "version": "9.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/highlightjs/highlight.js.git",
+                "reference": "tags/9.7.0"
+            },
+            "type": "drupal-library"
         },
         {
             "name": "laminas/laminas-diactoros",
