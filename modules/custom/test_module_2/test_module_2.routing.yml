@@ -1,0 +1,6 @@
+test_shouts:
+  path: /the/test/shouts/{count}
+  defaults:
+    _controller: Drupal\test_module_2\Controller\TestController::shout
+  requirements:
+    _permission: 'access content'

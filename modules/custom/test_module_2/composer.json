@@ -1,13 +1,13 @@
 {
-    "name": "test_module_2",
-    "type": "drupal-module",
+    "name": "drupal/test_module_2",
     "description": "My Awesome Module",
+    "type": "drupal-module",
     "keywords": [
     ],
     "homepage": "https://www.drupal.org/project/test_module_2",
     "minimum-stability": "dev",
     "support": {
         "issues": "https://www.drupal.org/project/issues/test_module_2",
-        "source": "http://cgit.drupalcode.org/test_module_2",
-    },
+        "source": "http://cgit.drupalcode.org/test_module_2"
+    }
 }
